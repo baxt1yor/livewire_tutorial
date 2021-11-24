@@ -1,0 +1,6 @@
+wire:model bind php property
+wire:model.debounce.{number}ms bu bizga biroq vaqtdan keyin property qiymatini ozgartirib beradi
+
+lifecycle method mount(), updated, hydrate depending injection bo'lib ishlaydi 
+
+emit click update mehtod
